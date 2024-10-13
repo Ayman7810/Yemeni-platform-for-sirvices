@@ -1,0 +1,18 @@
+.TitelSection{
+    text-align: right;
+    margin-top: 1%;
+  }
+  .TitelSection h2 {
+    margin-right: 14%;
+    font-weight: 400;
+    font-size: 35px;
+    color: #081a44;
+    font-family: 'aaa';;
+  }
+  .TitelSection p {
+    margin-right: 14%;
+    color: #262b9d;;
+    font-family: 'aaa';;
+    font-weight: 800;
+
+  } 

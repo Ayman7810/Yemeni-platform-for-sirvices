@@ -1,0 +1,261 @@
+.service-page {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+    position: relative;
+    padding-top: 30px;
+    margin-top: 70px;
+}
+.marginSection{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.listBtn{
+  color: white;
+  position: fixed;
+  top: 135px !important;
+  text-align: right !important;
+  left: -15px !important;
+  background-color: #0c60bb;
+  padding: 12px 50px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.list{
+  /* background: #0c60bb; */
+  width: 230px;
+  top: 242px;
+  left: -45px;
+  position: fixed;
+  padding-left: 40px;
+}
+
+.hidden{
+  display: none;
+}
+
+.service-page  .TitelSection h2,.service-page .TitelSection p{
+    margin-right: 1%;
+}
+.service-page-content {
+  margin: 0;
+}
+.container-servisce {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  padding-left: 0%;
+  position: relative;
+}
+.services {
+  margin-left: 1%;
+  margin-left: 4%;
+}
+.services-div {
+  margin: 1%;
+  margin-left: -3%;
+  margin-top: 0%;
+}
+.section-title {
+  text-align: right;
+}
+.section-title h2 {
+  color: #162740;
+}
+.section-title p {
+  color: #007bff79;
+  font-weight: 900;
+}
+.services-box {
+  text-align: right;
+  background: #ffffff;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid rgb(192 205 217);
+  border-radius: 2px;
+  margin-bottom: 0%;
+}
+.services-box:hover {
+  box-shadow: rgb(177 236 255 / 80%) 0px 2px 5px;
+  background: radial-gradient(#f3e8e8, #ffffff63);
+}
+
+.services-box h4 {
+  text-align: right;
+  margin-right: 10px;
+  font-family: 'aaa';
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* تحديد عدد الأسطر الذي تريده هنا */
+  -webkit-box-orient: vertical;
+  direction: rtl;
+}
+
+.services-box p {
+  color: #969090;
+  font-size: 18px;
+  direction: rtl;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family:'aaa';
+  text-indent: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.services-box .link-box {
+  background-color: rgb(12 96 187 / 9%);
+  padding: 7px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 18px;
+  font-family: 'aaa';
+  color: #0c60bb;
+}
+.link-move {
+  color: #000;
+}
+
+#list-services {
+  background-color: burlywood;
+}
+#list-services h3 {
+  color: #000;
+  text-align: right;
+}
+.menu {
+  width: 100%;
+  font-family: 'aaa';
+  text-align: center;
+}
+.menu button {
+  display: block;
+  color: #0c60bb;
+  padding: 12px;
+  width: 100%;
+  background: #f4fdfe;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 20px;
+  border-bottom: 3px solid #000;
+}
+.menu a:hover {
+  color: #000000;
+}
+/* ==================================================== */
+/* ===============end page services larg=============== */
+/* ==================================================== */
+.listBtn {
+  color: white;
+  position: fixed;
+  top: 190px; /* يمكنك تعديل هذا لتحديد موضع الزر */
+  left: -40px;
+  background-color: #0c60bb;
+  padding: 12px 50px;
+  border-radius: 10px;
+  border: none;
+  z-index: 10; /* أضف z-index */
+}
+
+.list {
+  width: 230px;
+  top: 242px; /* تأكد من أن هذا لا يتداخل مع المحتوى */
+  left: -45px;
+  position: fixed;
+  padding-left: 40px;
+  z-index: 10; /* أضف z-index */
+}
+
+.hidden {
+  display: none;
+}
+.service-page {
+  margin-top: 100px;
+  margin: 0 50px;
+  position: relative;
+  padding-top: 30px;
+  margin-top: 70px;
+}
+
+.marginSection {
+  margin: 0 50px;
+}
+
+.dropdown {
+  position: fixed;
+  top: 190px;
+  left: 20px;
+  z-index: 10;
+}
+
+.listBtn {
+  color: white;
+  background-color: #0c60bb;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.listBtn:hover {
+  background-color: #0a4e8c;
+  transform: scale(1.05); /* تكبير بسيط عند التمرير */
+}
+
+.list {
+  width: 250px;
+  position: absolute;
+  top: 50px; /* تعديل الموضع */
+  left: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 20;
+}
+
+.hidden {
+  display: none;
+}
+
+.menu {
+  padding: 10px;
+}
+
+.menu button {
+  display: block;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  background: #0c60bb;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 10px; /* مساحة بين الأزرار */
+  transition: background 0.3s;
+}
+
+.menu button:hover {
+  background: #0a4e8c; /* لون الخلفية عند التمرير */
+}
+
+.menu button:focus {
+  outline: none; /* إزالة الحدود عند التركيز */
+}
+
+/* تحسين عرض النصوص */
+.menu button {
+  text-align: right; /* المحاذاة إلى اليمين */
+  font-family: 'Arial', sans-serif; /* تغيير نوع الخط */
+}

@@ -1,0 +1,18 @@
+.ItemInfoDetailsService {
+    margin: 10px 15px ;
+    justify-content: right;
+    direction: rtl;
+  }
+  span{
+    font-size: 20px;
+  }
+  .ItemInfoDetailsServiceTitel  {
+    margin-top: 10px;
+    justify-content: right;
+    direction: rtl;
+    font-weight: 700;
+    margin-right: 15px;
+    font-family: 'aaa';
+  }
+
+  

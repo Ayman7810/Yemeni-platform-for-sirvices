@@ -1,0 +1,14 @@
+.info-wrap .dbox p {
+    margin-bottom: 0;
+  }
+  .info-wrap .dbox p span {
+    font-weight: 400;
+    font-family: 'aaa';
+    color: #000;
+  }
+  .info-wrap .dbox p,
+  .info-wrap .dbox a,
+  .info-wrap p {
+    color: #23219d;;
+    text-align: right;
+    font-size: 17px;}

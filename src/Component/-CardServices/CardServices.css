@@ -1,0 +1,33 @@
+/** @format */
+
+.CardServicess {
+  height: 180px;
+  background: white;
+  width: 100%;
+  margin-bottom: 3px;
+  border-radius: 3px;
+  border: 0.2px solid #4135dc36;
+}
+.CardServicess:hover {
+  border: 1px solid #fff;
+  background-color: #aba6ff;
+}
+.CardServicess h2 {
+  font-size: 20px;
+
+  font-family: "aaa";
+
+  bottom: 40%;
+  text-align: right;
+  margin-right: 4px;
+}
+.IconServices {
+  color: #23219d;
+  font-size: 45px;
+  margin-right: 20px;
+  text-align: right !important;
+  display: block;
+}
+.CardServicess:hover .IconServices {
+  color: #fff;
+}

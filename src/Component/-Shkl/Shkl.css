@@ -1,0 +1,93 @@
+/** @format */
+
+.shkl-1 {
+  height: 170px;
+  width: 250px;
+  background: #0b888f69;
+  position: absolute;
+  top: 10%;
+  right: 7%;
+  border-radius: 10px;
+}
+.shkl-2 {
+  height: 170px;
+  width: 250px;
+  background: rgb(202 3 249 / 45%);
+  position: absolute;
+  top: 13%;
+  right: 48%;
+  border-radius: 10px;
+}
+.shkl-3 {
+  height: 170px;
+  width: 250px;
+  background: #3b6de3c7;
+  position: absolute;
+  top: 52%;
+  right: 30%;
+  border-radius: 10px;
+}
+.shkl-1 h2,
+.shkl-2 h2,
+.shkl-3 h2 {
+  color: #081a44;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 30px;
+
+  font-family: emoji;
+}
+.shkl-1 h3,
+.shkl-2 h3,
+.shkl-3 h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "aaa";
+
+  text-shadow: #081a43 3px 2px 1px;
+}
+@media (max-width: 576px) {
+  .shkl-1 {
+    height: 170px;
+    width: 150px; /* تعديل العرض حسب الحاجة */
+    background: #0b888f69;
+    position: relative; /* استخدم relative لتسهيل التخطيط */
+    margin: 10px auto; /* محاذاة العنصر في المركز */
+    border-radius: 10px;
+  }
+
+  .shkl-2 {
+    height: 170px;
+    width: 150px; /* تعديل العرض حسب الحاجة */
+    background: rgb(202 3 249 / 45%);
+    position: relative; /* استخدم relative لتسهيل التخطيط */
+    margin: 10px auto; /* محاذاة العنصر في المركز */
+    border-radius: 10px;
+  }
+
+  .shkl-3 {
+    height: 170px;
+    width: 150px; /* تعديل العرض حسب الحاجة */
+    background: #3b6de3c7;
+    position: relative; /* استخدم relative لتسهيل التخطيط */
+    margin: 10px auto; /* محاذاة العنصر في المركز */
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .shkl-1 {
+    top: 10%;
+    right: -20%;
+  }
+
+  .shkl-2 {
+    top: -47%;
+    right: 20%;
+  }
+  .shkl-3 {
+    top: -60%;
+    right: 0%;
+  }
+}

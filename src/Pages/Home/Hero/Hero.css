@@ -1,0 +1,166 @@
+
+.hero h1 {
+  position: absolute;
+  right: 15%;
+  bottom: 60%;
+  font-weight: 100;
+  font-size: 3rem;
+  color: #ffffff;
+  text-shadow: #000 3px 3px 1px;
+}
+
+.hero h5 {
+  position: absolute;
+  right: 15%;
+  bottom: 52%;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: 'aaa';
+  text-shadow: #000 2px 2px 1px;
+}
+
+.clops-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #e7e7e717;
+  position: absolute;
+  right: 1%;
+  bottom: 75%;
+  border-radius: 50px;
+}
+.clops-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #e7e7e717;
+  position: absolute;
+  right: 8%;
+  bottom: 70%;
+  border-radius: 50px;
+}
+.clops-3 {
+  width: 180px;
+  height: 180px;
+  background-color: #e7e7e708;
+  position: absolute;
+  right: 94%;
+  bottom: 55%;
+  border-radius: 150px;
+}
+
+
+#stripes {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  transform-origin: 0;
+  transform: skewY(0deg);
+  background: linear-gradient(147deg, #1f169d 15%, #345b9a 70%, #2580f5 94%);
+}
+
+#stripes,
+#stripes span {
+  position: absolute;
+}
+
+#stripes span {
+  height: 40px;
+}
+
+#stripes :nth-child(1) {
+  width: 50%;
+  left: 50%;
+  top: 40px;
+  background: #da0d0d00;
+}
+
+
+
+#stripes :nth-child(3) {
+  width: 25%;
+  bottom: 0;
+  right: 0;
+  background: #262b9d29;
+}
+
+@media (min-width: 670px) {
+  #stripes span {
+    height: 150px;
+  }
+  #stripes :nth-child(1) {
+    top: 0;
+  }
+  #stripes :nth-child(2) {
+    width: 16.66667%;
+    top: 300px;
+    bottom: auto;
+    background: #9d2626;
+  }
+  #stripes :nth-child(3) {
+    width: 33.33333%;
+    right: auto;
+    background: #ff00001c;
+  }
+}
+
+@media (min-width: 880px) {
+  #stripes span {
+    height: 190px;
+  }
+
+  #stripes :nth-child(1) {
+    width: 33.33333%;
+    left: -16.66666%;
+    background: #262b9d;
+  }
+
+  #stripes :nth-child(2) {
+    width: 33.33333%;
+    top: 0;
+    left: 16.66666%;
+    right: auto;
+    background: #262b9d;
+  }
+
+  #stripes :nth-child(3) {
+    width: 33.33333%;
+    left: 49.99999%;
+    bottom: auto;
+    background: #262b9dab;
+  }
+
+  #stripes :nth-child(4) {
+    width: 33.33333%;
+    top: 380px;
+    right: -16.66666%;
+    background: #2c429b14;
+  }
+
+  #stripes :nth-child(5) {
+    width: 33.33333%;
+    bottom: -70px;
+    background: #2461b32e;
+  }
+}
+@media (max-width: 576px) {
+  .hero h5 {
+    position: absolute;
+    right: 14%;
+    bottom: 60%;
+    font-weight: 300;
+    font-size: 1rem; /* حجم الخط */
+    color: #fff;
+    font-family: 'aaa';
+    text-shadow: #000 2px 2px 1px;
+  }
+
+  .hero h1 {
+    position: absolute;
+    right: 4%;
+    bottom: 66%;
+    font-weight: 100;
+    font-size: 3rem; /* حجم الخط */
+    color: #ffffff;
+    text-shadow: #000 3px 3px 1px;
+  }
+}

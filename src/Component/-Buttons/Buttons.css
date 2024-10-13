@@ -1,0 +1,25 @@
+
+.btn-1{
+    position: absolute;
+    top: 58%;
+    background-color: #5533ff;
+    padding: 8px 10px 8px 20px;
+    border-radius: 5px;
+    color: white;
+    right: 15%;
+    margin-top: 5px;
+}
+.btn-2{
+    position: absolute;
+    top: 58%;
+    background-color: #5533ff;
+    padding: 8px 10px 8px 20px;
+    border-radius: 5px;
+    color: white;
+    right: 25%;
+    margin-top: 5px;
+}
+.btn-1:hover , .btn-2:hover{
+        background: #a6ffcb !important;
+        color: #495057!important;
+}

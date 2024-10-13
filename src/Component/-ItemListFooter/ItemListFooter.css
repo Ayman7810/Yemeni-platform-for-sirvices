@@ -1,0 +1,11 @@
+.menu-item {
+    list-style-type: none;
+    margin-top: 5px;
+    
+
+}
+
+.footer-content-column ul li a,.footer-call-to-action .menu-item a, .menu-item a {
+    color: #fff;
+    text-decoration: none;
+  }
