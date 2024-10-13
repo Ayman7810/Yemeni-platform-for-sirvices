@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Yemeni-platform-for-sirvices/static/css/main.a4c0c277.css",
+    "main.js": "/Yemeni-platform-for-sirvices/static/js/main.9b3c69f5.js",
+    "static/media/guiding_social_protection_benefits-1.jpg": "/Yemeni-platform-for-sirvices/static/media/guiding_social_protection_benefits-1.35227ff310c7b392d207.jpg",
+    "static/media/blog-foresight.jpg": "/Yemeni-platform-for-sirvices/static/media/blog-foresight.4cdeaab7df54a19efb14.jpg",
+    "static/media/working-group1-1200x565.png": "/Yemeni-platform-for-sirvices/static/media/working-group1-1200x565.7475df5bf7d7a1d25e32.png",
+    "static/media/Alexandria-Light.ttf": "/Yemeni-platform-for-sirvices/static/media/Alexandria-Light.38ea9ca48ff224061348.ttf",
+    "static/media/logo.png": "/Yemeni-platform-for-sirvices/static/media/logo.0a22d38035ca45f5810e.png",
+    "static/media/bank.jpg": "/Yemeni-platform-for-sirvices/static/media/bank.db7af3e8bd2dcbe14c9c.jpg",
+    "static/media/20231028_162350.png": "/Yemeni-platform-for-sirvices/static/media/20231028_162350.9f8af410c017f9d0b518.png",
+    "static/media/about us.jpg": "/Yemeni-platform-for-sirvices/static/media/about us.8ead21c99fbbfbb6c91a.jpg",
+    "index.html": "/Yemeni-platform-for-sirvices/index.html",
+    "main.a4c0c277.css.map": "/Yemeni-platform-for-sirvices/static/css/main.a4c0c277.css.map",
+    "main.9b3c69f5.js.map": "/Yemeni-platform-for-sirvices/static/js/main.9b3c69f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4c0c277.css",
+    "static/js/main.9b3c69f5.js"
+  ]
+}
